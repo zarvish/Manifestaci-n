@@ -1,0 +1,61 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.container {
+    background-color: #1e1e1e;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-label {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.table {
+    color: #ffffff;
+}
+
+.table th,
+.table td {
+    vertical-align: middle;
+    color: #ffffff;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #2a2a2a;
+}
+
+.table-striped tbody tr:nth-of-type(odd) > * {
+    color: #ffffff !important;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: #1e1e1e;
+}
+
+.table-striped tbody tr:nth-of-type(even) > * {
+    color: #ffffff !important;
+}
+
+.table-dark {
+    background-color: #333333;
+}
+
+.btn-search {
+    width: 100px;
+    border-radius: 50px;
+    transition: transform 0.2s;
+}
+
+.btn-search:hover {
+    transform: scale(1.1);
+}
+
+.btn-favorite {
+    display: block;
+    width: 100%;
+}
